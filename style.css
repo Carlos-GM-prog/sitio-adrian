@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.hero {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1f1f1f, #0a0a0a);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1db954;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.spotify { background-color: #1db954; }
+.instagram { background-color: #e1306c; }
+.youtube { background-color: #ff0000; }
+
+.music-section {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.music-section h2 {
+    margin-bottom: 20px;
+}
+
+.track-card {
+    background: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.track-card audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #080808;
+    color: #777;
+    font-size: 0.9rem;
+}
